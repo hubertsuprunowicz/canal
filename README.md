@@ -85,7 +85,7 @@ src
 ├── Providers/ ---> place to put every kind of global provider (not feature related)
 |
 ├── app/ ---> business features
-│   └── feature/ ---> i.e. movies
+│   └── feature/ ---> i.e. movies. Feature related stuff - unit tests, componets, etc...
 │       ├── constants/ ---> Optional, feature related
 │       ├── hooks/ ---> Optional, feature related
 │       ├── styles.ts
@@ -101,6 +101,8 @@ src
 │   ├── helpers/ ---> utility functions
 │   └── hooks/
 |
+├── tests/ ---> unit tests related utils
+|
 └── types/ ---> contains TS types which could be used in more places
 ```
 
@@ -114,5 +116,6 @@ Todo:
 - [ ] Display more data of the movie in the `MovieCard` component.
 - [ ] i18n.
 - [ ] Design.
+- [ ] UX: keyboard support.
 - [ ] E2E tests are now dependent on API that could be changed. Make unmutable data source for e2e tests.
 - [ ] Authentication with additional features for logged users.
