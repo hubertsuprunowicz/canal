@@ -1,3 +1,3 @@
 export * from "./system";
-export { default as ThemeProvider } from "./ThemeProvider";
-export * from "./ThemeProvider";
+export { default as ThemeProvider } from "../providers/ThemeProvider";
+export * from "../providers/ThemeProvider";
