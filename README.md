@@ -112,10 +112,13 @@ Discussable:
 - Responsive virtualized list of the movies with `load more` feature.
 
 Todo:
+- [ ] Error handling (ErrorBoundary).
+- [ ] Generate whole type of API.
+- [ ] E2E tests are now dependent on API that could be changed. Make unmutable data source for e2e tests.
 - [ ] Dark theme.
 - [ ] Display more data of the movie in the `MovieCard` component.
 - [ ] i18n.
 - [ ] Design.
 - [ ] UX: keyboard support.
-- [ ] E2E tests are now dependent on API that could be changed. Make unmutable data source for e2e tests.
 - [ ] Authentication with additional features for logged users.
+- [ ] Semantic HTML.
